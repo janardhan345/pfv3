@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar Navigation -->
+        <aside class="sidebar-left">
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <nav class="nav-main">
+                <ul>
+                    <li><a href="#about" class="nav-link active">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="theme-toggle">
+                <button id="themeBtn" class="theme-btn">🌙 Dark</button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- About Section -->
+            <section id="about" class="page-section active">
+                <h1>About Me</h1>
+                <p>Welcome to my portfolio. I'm a passionate developer and designer creating beautiful digital experiences.</p>
+                <p>Add your bio, background, and story here. This is where you introduce yourself to visitors.</p>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="page-section">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML / CSS</li>
+                            <li>JavaScript / TypeScript</li>
+                            <li>React / Vue</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Python</li>
+                            <li>Databases</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>Git / GitHub</li>
+                            <li>Docker</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="page-section">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Project 1</h3>
+                        <p>Description of your first project. Add what technologies you used and what you learned.</p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 2</h3>
+                        <p>Description of your second project. Highlight the problems you solved.</p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Project 3</h3>
+                        <p>Description of your third project. Share the impact and results.</p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blog Section -->
+            <section id="blog" class="page-section">
+                <h2>Blog</h2>
+                <div class="blog-list">
+                    <article class="blog-item">
+                        <h3>Blog Post Title 1</h3>
+                        <span class="blog-date">May 31, 2026</span>
+                        <p>A brief excerpt of your blog post. Discuss topics related to your work, learning, or insights.</p>
+                        <a href="#" class="read-more">Read more →</a>
+                    </article>
+                    <article class="blog-item">
+                        <h3>Blog Post Title 2</h3>
+                        <span class="blog-date">May 28, 2026</span>
+                        <p>Another blog post excerpt. Share your thoughts and experiences with your audience.</p>
+                        <a href="#" class="read-more">Read more →</a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="page-section">
+                <h2>Contact</h2>
+                <p>Let's connect! Feel free to reach out through any of these channels:</p>
+                <div class="contact-links">
+                    <a href="mailto:your@email.com" class="contact-link">Email</a>
+                    <a href="#" class="contact-link">GitHub</a>
+                    <a href="#" class="contact-link">LinkedIn</a>
+                    <a href="#" class="contact-link">Twitter</a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Right Sidebar - Page Outline -->
+        <aside class="sidebar-right">
+            <div class="outline-header">On this page</div>
+            <nav class="outline-nav">
+                <ul id="outlineList"></ul>
+            </nav>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
