@@ -3,8 +3,8 @@ const themeBtn = document.getElementById('themeBtn');
 
 console.log('Theme button found:', themeBtn);
 
-// Check for saved theme or default to light mode
-const savedTheme = localStorage.getItem('theme') || 'light';
+// Check for saved theme or default to dark mode
+const savedTheme = localStorage.getItem('theme') || 'dark';
 console.log('Saved theme:', savedTheme);
 
 if (savedTheme === 'dark') {
