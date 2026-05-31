@@ -161,6 +161,33 @@ body {
     animation: fadeIn 0.3s ease-in;
 }
 
+/* Section Banner */
+.section-banner {
+    width: calc(100% + 8rem);
+    margin: -3rem -4rem 2rem -4rem;
+    height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.section-banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.1) 100%);
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -425,6 +452,12 @@ body {
     .main-content {
         padding: 2rem;
     }
+
+    .section-banner {
+        width: calc(100% + 4rem);
+        margin: -2rem -2rem 2rem -2rem;
+        height: 250px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -447,7 +480,13 @@ body {
     }
 
     .main-content {
-        padding: 2rem 1rem;
+        padding: 1.5rem;
+    }
+
+    .section-banner {
+        width: calc(100% + 3rem);
+        margin: -1.5rem -1.5rem 1.5rem -1.5rem;
+        height: 200px;
     }
 
     .projects-grid {
