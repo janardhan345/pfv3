@@ -14,21 +14,12 @@
     --text-muted: #6f6b63;
     --border-color: #d8d5cd;
     --accent: #00939f;
-
-    --red: #d14548;
-    --orange: #c77527;
-    --yellow: #ae8b0c;
-    --green: #558b2f;
-    --cyan: #00939f;
-    --blue: #286983;
-    --purple: #6b5b95;
-    --magenta: #b8416f;
 }
 
 body.dark-mode {
     /* Dark Mode Colors */
-    --bg-primary: #2a2724;
-    --bg-secondary: #282828;
+    --bg-primary: #1e2122;
+    --bg-secondary: #1e2122;
     --bg-tertiary: #3b3b3a;
     --text-primary: #fffcf0;
     --text-secondary: #f3f0e8;
@@ -258,7 +249,7 @@ body {
 }
 
 .skill-category li:before {
-    content: "→";
+    content: "⨇";
     position: absolute;
     left: 0;
     color: var(--accent);

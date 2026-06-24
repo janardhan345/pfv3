@@ -9,7 +9,7 @@ console.log('Saved theme:', savedTheme);
 
 if (savedTheme === 'dark') {
     document.body.classList.add('dark-mode');
-    if (themeBtn) themeBtn.textContent = '☀️ Light';
+    if (themeBtn) themeBtn.textContent = '◒ Light';
     console.log('Applied dark mode from localStorage');
 }
 
@@ -20,7 +20,7 @@ if (themeBtn) {
         const isDarkMode = document.body.classList.contains('dark-mode');
         console.log('Dark mode is now:', isDarkMode);
         localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
-        themeBtn.textContent = isDarkMode ? '☀️ Light' : '🌙 Dark';
+        themeBtn.textContent = isDarkMode ? '◒ Light' : '◓ Dark';
         console.log('Button text updated to:', themeBtn.textContent);
     });
 } else {
