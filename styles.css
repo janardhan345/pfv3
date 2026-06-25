@@ -6,11 +6,11 @@
 
 :root {
     /* Light Mode Colors */
-    --bg-primary: #fffcf0;
-    --bg-secondary: #f3f0e8;
+    --bg-primary: #b6b6b6;
+    --bg-secondary: #a5a5a5;
     --bg-tertiary: #e8e5dd;
-    --text-primary: #2a2724;
-    --text-secondary: #423f37;
+    --text-primary: #292927;
+    --text-secondary: #292927;
     --text-muted: #6f6b63;
     --border-color: #d8d5cd;
     --accent: #00939f;
