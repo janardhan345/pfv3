@@ -8,12 +8,12 @@
     /* Light Mode Colors */
     --bg-primary: #b6b6b6;
     --bg-secondary: #a5a5a5;
-    --bg-tertiary: #e8e5dd;
+    --bg-tertiary: #a6f5e6;
     --text-primary: #292927;
     --text-secondary: #292927;
     --text-muted: #6f6b63;
     --border-color: #d8d5cd;
-    --accent: #00939f;
+    --accent: #036d78;
 }
 
 body.dark-mode {
@@ -100,12 +100,12 @@ body {
 
 .nav-link:hover {
     background-color: var(--bg-tertiary);
-    color: var(--accent);
+    color: var(--text-primary);
 }
 
 .nav-link.active {
     background-color: var(--bg-tertiary);
-    color: var(--accent);
+    color: var(--text-secondary);
     border-left-color: var(--accent);
 }
 
